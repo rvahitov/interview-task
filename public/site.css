@@ -1,0 +1,28 @@
+.grid-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+.cell-box {
+    border: 1px solid lightgrey;
+}
+
+.empty-cell {
+    background-color: white;
+}
+
+.connected-cell {
+    background-color: #ff000033;
+}
+
+.filled-cell {
+    background-color: red;
+}
+
+#app {
+    margin: 10;
+}
