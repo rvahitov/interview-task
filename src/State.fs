@@ -2,7 +2,7 @@
 
 /// Model state
 module ModelState =
-    type T = private { GridDimension: int; Grid: Grid; ConnectedCells: GridCell list list }
+    type T = { GridDimension: int; Grid: Grid; ConnectedCells: GridCell list list }
 
     /// creates new state with provided grid dimension
     let create dimension =
